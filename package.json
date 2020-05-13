@@ -9,6 +9,17 @@
     "express": "^4.x"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./lib/**/test/*.test.js"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
   }
 }
