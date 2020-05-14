@@ -1,6 +1,6 @@
 {
   "name": "metisjs",
-  "version": "0.0.1-beta",
+  "version": "0.0.7-beta",
   "main": "index.js",
   "repository": "https://github.com/ggsilva/metisjs.git",
   "author": "Guilherme Gabriel da Silva",
