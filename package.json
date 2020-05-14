@@ -1,12 +1,13 @@
 {
   "name": "metisjs",
-  "version": "0.0.7-beta",
+  "version": "0.0.8-beta",
   "main": "index.js",
   "repository": "https://github.com/ggsilva/metisjs.git",
   "author": "Guilherme Gabriel da Silva",
   "license": "MIT",
   "peerDependencies": {
-    "express": "^4.x"
+    "express": "^4.x",
+    "sinon": "^9.x"
   },
   "dependencies": {
     "cors": "^2.8.5",
