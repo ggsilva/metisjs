@@ -1,6 +1,6 @@
 {
   "name": "metisjs",
-  "version": "0.0.8-beta",
+  "version": "0.0.1-alfa",
   "main": "index.js",
   "repository": "https://github.com/ggsilva/metisjs.git",
   "author": "Guilherme Gabriel da Silva",
@@ -12,7 +12,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mocha": "^7.1.2"
+    "mocha": "^7.1.2",
+    "sinon": "^9.0.2"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./lib/**/test/*.test.js"
@@ -20,7 +21,6 @@
   "devDependencies": {
     "axios": "^0.19.2",
     "chai": "^4.2.0",
-    "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0"
   }
 }
